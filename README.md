@@ -24,6 +24,20 @@ node -v
 npm -v
 ```
 
+## Configuração do Ambiente
+
+Crie um arquivo `.env` na raiz do projeto para configurar as variáveis de ambiente necessárias.
+
+Exemplo de conteúdo do `.env`:
+
+```
+# Exemplo de configuração
+NEXTAUTH_URL=seu_database_url // no caso o http://localhost:3000/
+NEXTAUTH_SECRET=sua_chave_secreta // pode ser uma chave gerada pelo: openssl rand -base64 32
+```
+
+Certifique-se de substituir os valores de exemplo pelas suas configurações reais.
+
 ## Execução
 
 Para iniciar o servidor de desenvolvimento, execute:
