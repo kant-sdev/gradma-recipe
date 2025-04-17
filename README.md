@@ -24,6 +24,20 @@ node -v
 npm -v
 ```
 
+## Configuração do Ambiente
+
+Crie um arquivo `.env` na raiz do projeto para configurar as variáveis de ambiente necessárias. Você pode usar o arquivo `.env.example` como referência.
+
+Exemplo de conteúdo do `.env`:
+
+```
+# Exemplo de configuração
+DATABASE_URL=seu_database_url
+SECRET_KEY=sua_chave_secreta
+```
+
+Certifique-se de substituir os valores de exemplo pelas suas configurações reais.
+
 ## Execução
 
 Para iniciar o servidor de desenvolvimento, execute:
